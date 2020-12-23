@@ -17,6 +17,7 @@ x_train, x_test, y_train, y_test = train_test_split(x_no_discrete, y, test_size=
 regressor = LinearRegression()
 regressor.fit(x_train, y_train)
 
+print('ohohh')
 
 y_pred = regressor.predict(x_test)
 
